@@ -29,5 +29,17 @@ public class Test {
         din = Menu.getMeal("Lunch");
         System.out.println(din.assembleOrder());
         System.out.println(din.hasAllItems());
+
+        din = Menu.getMeal("Breakfast 1,2");
+        System.out.println(din.assembleOrder());
+        System.out.println(din.hasAllItems());
+
+        din = Menu.getMeal("Lunch 1,2");
+        System.out.println(din.assembleOrder());
+        System.out.println(din.hasAllItems());
+
+        din = Menu.getMeal("Dinner 1,2");
+        System.out.println(din.assembleOrder());
+        System.out.println(din.hasAllItems());
     }
 }

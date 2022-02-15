@@ -44,7 +44,7 @@ public interface Menu {
             case "Dinner":
                 return new Dinner(input);
             default:
-                throw new IllegalArgumentException("Not a valid meal type.");
+                throw new IllegalArgumentException("Unable to process: Not a valid meal type.");
         }
     }
 }
